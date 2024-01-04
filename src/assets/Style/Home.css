@@ -1,0 +1,54 @@
+.main-container{
+    background-image: url("../images//books.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.login-form {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+ h3 {
+    color: black;
+ }
+
+.form-container {
+    margin-top: 100px;
+    /* margin-left: 10px; */
+}
+
+input {
+    border-radius: 5px;
+}
+
+.login-btn {
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+     
+      width: 100%;
+    }
+
+    .login-form {
+        margin-left: 0%;
+    }
+   
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .main-container{
+
+        width:100%;
+    }
+  }

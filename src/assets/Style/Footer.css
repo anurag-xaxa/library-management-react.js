@@ -1,0 +1,31 @@
+
+#footer-container {
+    
+    background-size: cover;
+    height:'30vh';
+    width: 100%;
+    
+}
+.link-container{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.text-uppercase{
+    margin-right: 70px;
+}
+
+.Footer-heading{
+    padding-bottom: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #footer-container{
+
+        width:100%;
+    }
+  }
