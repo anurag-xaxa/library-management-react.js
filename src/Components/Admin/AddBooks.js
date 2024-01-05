@@ -10,11 +10,11 @@ const AddBooks = () => {
     function handleSubmit(e) {
         e.preventDefault();
 
-        axios.post("http://localhost:5000/addBooks", data {
+        axios.post("http://localhost:5000/addBooks", {
             name:name
-        }).then((response){
+        }).then((response) => {
             response.status(200).json({message:"Book successfully added"})
-        }).catch((error) {
+        }).catch((error) => {
             console.log(error)
         })
     }
