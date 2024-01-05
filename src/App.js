@@ -6,6 +6,10 @@ import BlogPost from './Components/BlogPost.js';
 import DisplayData from './Components/DisplayData.js';
 import UpdateData from './Components/UpdateData.js';
 import Home from './Components/Home.js';
+import AdminDashboard from './Components/Admin/Dashboard.js'
+import StudentDashboard from './Components/Student/Dashboard.js'
+import AddBooks from './Components/Admin/AddBooks.js'
+import Card from './Components/Card.js';
 
 // import ProtectComponent from './Components/ProtectComponents.js';
 
@@ -29,6 +33,11 @@ function App() {
           <Route path="/login" element={<LoginForm/>}></Route>
           <Route path="/register" element={<RegisterForm/>}></Route>
           <Route path="/" element={<Home/>}></Route>
+          
+          <Route path="/admin" element={<AdminDashboard/>}></Route>
+          <Route path="/student" element={<StudentDashboard/>}></Route>
+          <Route path="/addBooks" element={<AddBooks/>}></Route>
+          <Route path="/card" element={<Card/>}></Route>
           
           
         </Routes>

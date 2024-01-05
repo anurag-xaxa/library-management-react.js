@@ -5,7 +5,7 @@ import '../assets/Style/Footer.css';
 const Footer = () => {
 
     return (
-     <div id="footer-container" style={{backgroundColor: "black"}} >
+     <div id="footer-container">
     <footer className="page-footer font-small blue pt-4">
     <div className="container-fluid text-center text-md-left">
         <div className="row">

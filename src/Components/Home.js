@@ -5,7 +5,7 @@ import Footer from "../Components/Footer.js";
 import { Form, Container } from 'react-bootstrap';
 
 
-const Home = () => {
+const Home = () => { 
     
   return (
     <>

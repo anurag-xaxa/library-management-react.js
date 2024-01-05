@@ -11,7 +11,7 @@ const Headers = () => {
         <a className = "nav-items" href="#home">Home |</a> 
         <a className = "nav-items"  href="#features">Features |</a> 
         <a className = "nav-items" href="#contact">Contact |</a> 
-        <a className = "nav-items" href= "#">New Registration</a>
+        <a className = "nav-items" href= "/register">New Registration</a>
       </div>
     </div>
   );
